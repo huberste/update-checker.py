@@ -1,0 +1,100 @@
+##software,lang,arch,versite,versionregex,dlsite,dlregex,current_version,onlycheck
+3DXWare,multi,x64,http://www.3dconnexion.de/service/drivers.html,<td class="col4">([\d\.]+)</td>,http://www.3dconnexion.de/service/drivers.html,<a.+?class="[^"]*windows-64-bit".*?href="([^"]*)".*?>,10.2.9
+#7-zip,multi,x86,http://www.7-zip.org/,Download 7-Zip ([\d\.]*).*?Windows,http://www.7-zip.org/,<A href="(.*?7z.*?\.exe)">Download,9.20
+7-zip,multi,x64,http://www.7-zip.org/,Download 7-Zip ([\d\.]*).*?Windows,http://www.7-zip.org/,<A href="(.*?7z.*?-x64\.msi)">Download,9.20
+#ActivePerl,en,x86,http://www.activestate.com/activeperl/downloads,href="[^"]*dl=.*?-([\d\.]+)-MSWin32-x86[^"]*",http://www.activestate.com/activeperl/downloads,href="[^"]*dl=(.*?-[\d\.]+-MSWin32-x86[^"]*)",5.20.1.2000
+ActivePerl,en,x64,http://www.activestate.com/activeperl/downloads,href="[^"]*dl=.*?-([\d\.]+)-MSWin32-x86[^"]*",http://www.activestate.com/activeperl/downloads,href="[^"]*dl=(.*?-[\d\.]+-MSWin32-x64[^"]*)",5.20.2.2002
+Adobe Reader,multi,x86,ftp://ftp.adobe.com/pub/adobe/reader/win/11.x/,[\d\.]+,ftp://ftp.adobe.com/pub/adobe/reader/win/11.x/%VER%/misc,AdbeRdrUpd[\d\.]+?\.msp,11.0.13,yes
+Anaconda,en,x64,http://continuum.io/downloads,href="https://[^"]*Anaconda-([\d\.]+)-Windows-x86_64.exe",http://continuum.io/downloads,href="(https://[^"]*Anaconda-[\d\.]+-Windows-x86_64.exe)",2.3.0
+AnyVideo Converter Free,de,x86,http://www.any-video-converter.com/products/for_video_free/whatnew.php,<td class="version"><span class="number">([\d\.]+)</span>,http://www.any-video-converter.com/download-avc-free.php,<a href="(.*?\.exe)">,5.8.5
+Audacity,multi,x86,http://sourceforge.net/p/audacity/news/,Audacity ([\d\.]+),http://audacity.sourceforge.net/?lang=de,<a.*?href="/projects/audacity/files/latest/download".*?>,2.1.0
+Audiograbber,de,x86,http://www.audiograbber.de/downloads/agsetup,<span.*?Download von Audiograbber ([\d\.]*)</span>,http://www.audiograbber.de/downloads/agsetup,<iframe.*?src="([^"]*)">,1.83
+#Blender,multi,x86,http://www.blender.org/download/#windows,href="[^"]*?blender-(.*?)-windows32.exe",http://www.blender.org/download/#windows,href="([^"]*?blender-.*?-windows32.exe)",2.73a
+Blender,de,x64,http://www.blender.org/download/#windows,href="[^"]*?blender-(.*?)-windows64.msi",http://www.blender.org/download/#windows,href="([^"]*?blender-.*?-windows64.msi)",2.76
+#CadSoft EAGLE,multi,x86,http://www.cadsoft.de/download-eagle/,<a href="[^"]*?eagle-win32-([\d\.]+).exe",http://www.cadsoft.de/download-eagle/,<a href="([^"]*?eagle-win32-[\d\.]*.exe)",7.2.0
+CadSoft EAGLE,multi,x64,http://www.cadsoft.de/download-eagle/,<a href="[^"]*?eagle-win64-([\d\.]+).exe",http://www.cadsoft.de/download-eagle/,<a href="([^"]*?eagle-win64-[\d\.]*.exe)",7.4.0
+CassyLab,de,x68,http://www.ld-didactic.de/service/softwaredownload/logcassylab2.html,Version ([\d\.]+) \([\d\.]+\),http://www.ld-didactic.de/service/softwaredownload/cassy-s.html,href="([^"]*cassylab2_de\.msi)",2.18
+CCleaner,multi,multi,https://www.piriform.com/ccleaner/download, +v([\d\.]+),https://www.piriform.com/ccleaner/download/standard,<a.*?href="([^"]*\.exe)".*?>,5.11.5408
+CCleaner slim,multi,multi,https://www.piriform.com/ccleaner/download, +v([\d\.]+),https://www.piriform.com/ccleaner/download/slim,<a.*?href="([^"]*downloadfile)".*?>,5.11.5408
+CCleaner portable,multi,multi,https://www.piriform.com/ccleaner/download, +v([\d\.]+),https://www.piriform.com/ccleaner/download/portable,<a.*?href="([^"]*downloadfile)".*?>,5.11.5408
+#CDBurnerXP,multi,x86,https://cdburnerxp.se/de/download,<a href="[^"]*?cdbxp_setup_([\d\.]*?)\.msi",https://cdburnerxp.se/de/download,<a href="([^"]*?cdbxp_setup_[\d\.]*?\.msi)",4.5.4.5306
+CDBurnerXP,multi,x64,https://cdburnerxp.se/de/download,<a href="[^"]*?cdbxp_setup_x64_([\d\.]*?)\.msi",https://cdburnerxp.se/de/download,<a href="([^"]*?cdbxp_setup_x64_[\d\.]*?\.msi)",4.5.6.5844
+Citrix Receiver,multi,x86,http://www.citrix.de/go/receiver.html,<a.*?href="[^"]*\.exe".*?>Windows Desktop</a> \(([\d\.]*)\),https://www.citrix.com/go/receiver/thank-you.html,<a.*href="([^"]*\.exe)".*?>Windows Desktop</a>,4.3.100
+CloudCompare,en,x64,http://cloudcompare.org/release/index.html,CloudCompare ([\d\.]+),http://cloudcompare.org/release/index.html,<a.*href="(CloudCompare_v[\d\.]+_setup_x64.exe)",2.6.2
+crimestat,en,x86,http://nij.gov/topics/technology/maps/pages/crimestat-downloads.aspx,\(version ([\d\.]*)\),http://nij.gov/topics/technology/maps/pages/crimestat-downloads.aspx,<a.*?href="([^"]*CrimeStat-.*-allfiles-.*\.zip)",4.02
+CutePDF Writer,en,x86,http://www.cutepdf.com/products/cutepdf/writer.asp,Ver\. ([\d\.]+),http://www.cutepdf.com/products/cutepdf/writer.asp,<a href="([^"]*)">Free.+Download</a>,3.0
+CutePDF Writer Converter,en,x86,http://www.cutepdf.com/products/cutepdf/writer.asp,GPLGS([\d\.]+),http://www.cutepdf.com/products/cutepdf/writer.asp,<a href="([^"]*)">Free.+Converter</a>,8.15
+Defraggler,multi,multi,https://www.piriform.com/defraggler/download, +v([\d\.]+),https://www.piriform.com/defraggler/download/standard,<a.*?href="([^"]*\.exe)".*?>,2.19.982
+Defraggler portable,multi,multi,https://www.piriform.com/defraggler/download, +v([\d\.]+),https://www.piriform.com/defraggler/download/portable,<a.*?href="([^"]*downloadfile)".*?>,2.19.982
+Dropbox,de,x86,https://www.dropbox.com/release_notes,<div.*?class="[^"]*? release_build_([\d\.]*) release_type_stable,https://www.dropbox.com/downloading?plat=win&type=full,<a href="(/download[^"]*)">,3.10.9
+#Everything,multi,x86,http://www.voidtools.com/downloads/,<a.*?href="[^"]*Everything-([\d\.]*).x86.Multilingual-Setup.exe".*?>,http://www.voidtools.com/downloads/,<a.*?href="([^"]*Everything-[\d\.]*.x86.Multilingual-Setup.exe)".*?>,1.3.4.686
+Everything,multi,x64,http://www.voidtools.com/downloads/,<a.*?href="[^"]*Everything-([\d\.]*).x64.Multilingual-Setup.exe".*?>,http://www.voidtools.com/downloads/,<a.*?href="([^"]*Everything-[\d\.]*.x64.Multilingual-Setup.exe)".*?>,1.3.4.686
+FastStone Image Viewer,en,x86,http://www.faststone.org/FSViewerDownload.htm,>FastStone Image Viewer ([\d\.]*),http://www.faststone.org/FSViewerDownload.htm,<a href="([^"]*FSViewerSetup.*?.exe)">,5.5
+#FEFLOW,en,x86,http://www.mikepoweredbydhi.com/download/mike-by-dhi-2014/feflow,Feflow-([\d\.]*)-x64-en-Setup\.exe,,,6.2.6208,yes
+FEFLOW,en,x64,http://www.mikepoweredbydhi.com/download/mike-by-dhi-2014/feflow,Feflow-([\d\.]*)-x86-en-Setup\.exe,,,6.2.6211,yes
+#FEFLOW Demo Data,en,x86,http://www.feflow.com/download.html,'<a.*?href=\''.*?FeflowDemo-([\d\.]*)-x64-en-Compact.exe\''',http://www.feflow.com/download.html,'<a.*?href=\''(download/FEFLOW/windows/FeflowDemo.*?FeflowDemo-[\d\.]*-x86-en-Compact.exe)\''',6.2.6200
+GOM Media Player,en,x86,http://player.gomlab.com/notice.gom,GOM Media Player ([\d\.]*) released,,,2.2.71.5231,yes
+GPS Utility,en,x86,http://www.gpsu.co.uk/download.html,'Version ([\d\.]*), Released',http://www.gpsu.co.uk/download.html,<a.*?href="([^"]*gpsu.*?setup\.exe)".*?>,5.24
+#ImageVis3D,en,x86,http://www.sci.utah.edu/download/imagevis3d,\(Latest Version ([\d\.]*)\),http://www.sci.utah.edu/download/imagevis3d,<a.*?href="([^"]*ImageVis3D-.*-Win32\.exe)".*?>,3.1.0
+ImageVis3D,en,x64,http://www.sci.utah.edu/download/imagevis3d,\(Latest Version ([\d\.]*)\),http://www.sci.utah.edu/download/imagevis3d,<a.*?href="([^"]*ImageVis3D-.*-Win64\.exe)".*?>,3.1.0
+NetLM,en,x86,http://www.mikepoweredbydhi.com/download/mike-by-dhi-2014/netlm-5-1,Netlm-([\d\.]*)-x86-en.msi,,,5.1.5105,yes
+#PEST Utilities,en,x86,http://www.pesthomepage.org/Downloads.php,PEST version ([\d\.]*),http://www.pesthomepage.org/Downloads.php,Download the latest <a href="([^"]*)">PC version of PEST</a>,13.3
+PEST Utilities,en,x64,http://www.pesthomepage.org/Downloads.php,PEST version ([\d\.]*),http://www.pesthomepage.org/Downloads.php,Download <a href="([^"]*)">64bit,13.3
+#FileZilla,de,x86,https://filezilla-project.org/download.php?show_all=1,FileZilla_([\d\.]*)_win32-setup\.exe,https://filezilla-project.org/download.php?show_all=1,<a href="([^"]*)">FileZilla_[\d\.]*_win32-setup\.exe</a>,3.14.0
+FileZilla,de,x64,https://filezilla-project.org/download.php?show_all=1,FileZilla_([\d\.]*)_win64-setup\.exe,https://filezilla-project.org/download.php?show_all=1,<a href="([^"]*)">FileZilla_[\d\.]*_win64-setup\.exe</a>,3.14.1
+FreeFileSync,multi,x86,http://www.freefilesync.org/,FreeFileSync ([\d\.]+),http://sourceforge.net/projects/freefilesync/,<a.*?href="(/projects/freefilesync/files/latest/download)",7.5.,yes
+FTDI Virtual COM Port,en,multi,http://www.ftdichip.com/Drivers/VCP.htm,<a.*?href="[^"]*CDM[^"]*v([\d\.]+)[^"]*WHQL[^"]*.exe",http://www.ftdichip.com/Drivers/VCP.htm,<a.*?href="([^"]*CDM[^"]*v[\d\.]+[^"]*WHQL[^"]*.exe)",2.12.06
+FullProf Suite,en,x86,http://www.ill.eu/sites/fullprof/php/downloads.html,<a.+?href="[^"]*Setup_FullProf_Suite_(.*?).exe".*?>,http://www.ill.eu/sites/fullprof/php/downloads.html,<a.+?href="([^"]*Setup_FullProf_Suite_.*?.exe)".*?>,September2015
+Garmin BaseCamp,de,multi,http://www8.garmin.com/support/download_details.jsp?id=4435,BaseCamp software version ([\d\.]+), http://www8.garmin.com/support/download_details.jsp?id=4435,<a.+?href="([^"]*exe)".*?>,4.5.2
+GeoSetter,de,x86,http://www.geosetter.de/,Die aktuelle Version ist ([\d\.]+),http://www.geosetter.de/download/,<a.+?href="([^"]*?.exe)".*?>,3.4.16
+GIMP,multi,x86,http://www.gimp.org/downloads/,<a.+?href="[^"]*?-([\d\.]+)-[^"]*?\.exe".*?>,http://www.gimp.org/downloads/,<a.+?href="([^"]*?-[\d\.]+-[^"]*?\.exe)".*?>,2.8.14
+#git,en,x86,http://git-scm.com/download/win,<a.+?href="[^"]*?Git-([\d\.]+)[^"]*?\.exe".*?>,http://git-scm.com/download/win,<a.+?href="([^"]*?Git-[\d\.]+[^"]*?\.exe)".*?>,2.5.2.2
+git,en,x64,http://git-scm.com/download/win,<a.+?href="[^"]*?Git-([\d\.]+)-64-bit\.exe".*?>,http://git-scm.com/download/win,<a.+?href="([^"]*?Git-[\d\.]+-64-bit\.exe)".*?>,2.6.2
+Google Chrome,de,x64,http://googlechromereleases.blogspot.de/,The stable channel has been updated to ([\d\.]*) for Windows,https://www.google.de/chrome/business/browser/admin/,(https://www.google.de/chrome/business/browser/admin/index.html),46.0.2490.80,yes
+Google Earth Pro,de,x86,https://www.google.de/intl/de/earth/download/gep/agree.html,Aktuelle Version \(([\d\.]*)\),https://www.google.de/intl/de/earth/download/gep/agree.html,,7.1,yes
+Gpg4Win,de,x86,http://www.gpg4win.de/download-de.html,<h2>Gpg4win ([\d\.]+) \(.*?\)</h2>,http://www.gpg4win.de/download-de.html,<a.+?href="([^"]*\.exe)".*?>G,2.2.6
+#Inkscape,de,x86,https://inkscape.org/de/herunterladen/windows-installer/,Aktuelle stabile Version \(([\d\.]*)\),https://inkscape.org/de/herunterladen/windows-installer/,<strong>32bit-Windows</strong>: <a[^>]*?href="([^"]*)"[^>]*?>,0.91
+Inkscape,de,x86,https://inkscape.org/de/herunterladen/windows-installer/,Aktuelle stabile Version \(([\d\.]*)\),https://inkscape.org/de/herunterladen/windows-installer/,<strong>64bit-Windows</strong>: <a[^>]*?href="([^"]*)"[^>]*?>,0.91
+InnoSetup,multi,x86,http://www.jrsoftware.org/isdl.php,isetup-([\d\.]+)\.exe,http://www.jrsoftware.org/isdl.php,<a.*?href="(.*?is.exe)".*?>,5.5.6
+IrfanView,en,x86,http://www.irfanview.net/download_sites.htm,\(Version ([\d\.]+),http://www.irfanview.net/download_sites.htm#AlternativeLink,<a.*?href="([^"]*iview.*?setup\.exe)".*?>,4.40
+Jana2006,multi,x86,http://www-xray.fzu.cz/jana/download/stable2006/VersionString.js,'\''(.+)\''',http://jana.fzu.cz/,<a href="(http://www-xray.fzu.cz/jana/download/stable2006/janainst.msi)">,2015.10.25
+KeePass,en,x86,http://keepass.info/download.html,KeePass (1.[\d\.]*),http://keepass.info/download.html,<a.*?href="([^"]*KeePass-1[^"]*)",1.29
+KeePass,en,x86,http://keepass.info/download.html,KeePass (2.[\d\.]*),http://keepass.info/download.html,<a.*?href="([^"]*KeePass-2[^"]*)",2.30
+LibreOffice,de,x86,https://de.libreoffice.org/download/,LibreOffice ([\d\.]*) f.*r Windows,https://de.libreoffice.org/download/,<a.*?class="btn-main".*?href="([^"]*)".*>,4.4.5,yes
+#MediaPlayer Classic Home Cinema,en,x86,http://mpc-hc.org/downloads/,latest stable build of is v([\d\.]*),http://mpc-hc.org/downloads/,<a href=(http://sourceforge.net/projects/mpc-hc/files/MPC%20HomeCinema%20-%20Win32/MPC-HC_v[\d\.]*_x86/MPC-HC.[\d\.]*.x86.exe/download)>,1.7.8
+MediaPlayer Classic Home Cinema,en,x64,http://mpc-hc.org/downloads/,latest stable build is v([\d\.]*),http://mpc-hc.org/downloads/,<a href=(http://sourceforge.net/projects/mpc-hc/files/MPC%20HomeCinema%20-%20x64/MPC-HC_v[\d\.]*_x64/MPC-HC.[\d\.]*.x64.exe/download),1.7.9
+#Mercurial,en,x86,http://mercurial.selenic.com/sources.js,mercurial-([\d\.]*)-x86.msi,http://mercurial.selenic.com/sources.js,http.*?mercurial-[\d\.]*-x86.msi,3.3.2
+Mercurial,en,x64,http://mercurial.selenic.com/sources.js,mercurial-([\d\.]*)-x64.msi,http://mercurial.selenic.com/sources.js,http.*?mercurial-[\d\.]*-x64.msi,3.5.2
+Mozilla Firefox,de,x86,https://www.mozilla.org/en-US/firefox/all/,href="[^"]*?firefox-([\d\.]*)[^"]*?&amp;os=win&amp;lang=de",https://www.mozilla.org/en-US/firefox/all/,href="([^"]*?firefox-.*?&amp;os=win&amp;lang=de)",41.0.2
+Mozilla Thunderbird,de,x86,https://www.mozilla.org/en-US/thunderbird/all.html,href="[^"]*?thunderbird-([\d\.]*)[^"]*&amp;os=win&amp;lang=de",https://www.mozilla.org/en-US/thunderbird/all.html,href="([^"]*?thunderbird-.*?&amp;os=win&amp;lang=de)",38.3.0
+Notepad++,de,x86,http://notepad-plus-plus.org/download/,Download Notepad\+\+ ([\d\.]*),http://notepad-plus-plus.org/download/,<a href="([^"]*npp.[\d\.]*.Installer.exe)">,6.8.5
+NoteTab Light,multi,x86,http://www.notetab.com/version-history.php,Version ([\d\.]+),http://www.notetab.com/get.php?ntl,<a.*?href="(http://www.notetab.com/ftp/NoteTab_Light_Setup.exe)">,7.2
+Opera,multi,x86,http://www.opera.com/docs/changelogs/windows/,Opera ([\d\.]+),http://www.opera.com/download/get/?partner=www&opsys=Windows,<a.*?href="([^"]*)".*?>try,33
+Oracle Java SE Runtime Environment,multi,x86,http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html,"filepath":"[^"]*jre-(.*?)-windows-i586.exe",http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html,"filepath":"([^"]*jre-.*?-windows-i586.exe)",8u65
+Oracle Java SE Runtime Environment,multi,x64,http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html,"filepath":"[^"]*jre-(.*?)-windows-x64.exe",http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html,"filepath":"([^"]*jre-.*?-windows-x64.exe)",8u65
+Oracle Java SE Development Kit,multi,x86,http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html,"filepath":"[^"]*jdk-(.*?)-windows-i586.exe",http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html,"filepath":"([^"]*jdk-.*?-windows-i586.exe)",8u65
+Oracle Java SE Development Kit,multi,x64,http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html,"filepath":"[^"]*jdk-(.*?)-windows-x64.exe",http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html,"filepath":"([^"]*jdk-.*?-windows-x64.exe)",8u65
+Paint.NET,multi,multi,http://www.dotpdn.com/downloads/pdn.html,"[^"]*paint\.net\.([\d\.]*)\.install\.zip",http://www.dotpdn.com/downloads/pdn.html,<b><a.*?href="([^"]*)".*?>,4.0.6
+#ParaView,multi,x86,http://www.paraview.org/files/paraview-download.js,ParaView-([\d\.]*)-Windows-32bit.exe,,,4.3.1,yes
+ParaView,multi,x64,http://www.paraview.org/files/paraview-download.js,ParaView-([\d\.]*)-Windows-64bit.exe,,,4.3.1,yes
+PDF24 Creator,multi,x86,http://en.pdf24.org/creator.html,<span itemprop="softwareVersion">([\d\.]+)</span>,http://en.pdf24.org/forum/about874.html,https://www.pdf24.org/products/pdf-creator/download/pdf24-creator.msi,7.4.0
+PDFCreator,en,x86,http://www.pdfforge.org/blog,PDFCreator ([\d\.]+),http://de.pdfforge.org/pdfcreator/download,"(http://download.pdfforge.org/download/pdfcreator/PDFCreator-stable)",2.1.2,yes
+#PDF-XChange Editor,multi,x86,http://www.tracker-software.com/product/pdf-xchange-editor,<span class="versionname notranslate">([\d\.]+)</span>,,,5.5.312.1,yes
+PDF-XChange Editor,multi,x64,http://www.tracker-software.com/product/pdf-xchange-editor,<span class="versionname notranslate">([\d\.]+)</span>,,,5.5.315.0,yes
+#PDF-XChange Viewer,multi,x86,http://www.tracker-software.com/product/pdf-xchange-viewer,<span class="versionname notranslate">([\d\.]+)</span>,,,2.5.312.1,yes
+PDF-XChange Viewer,multi,x64,http://www.tracker-software.com/product/pdf-xchange-viewer,<span class="versionname notranslate">([\d\.]+)</span>,,,2.5.315.0,yes
+#PhreePlot,multi,x86,http://www.phreeplot.org/index.html,<a href="./setup-pp-win32-([\d-]*)-9213.exe">Win32</a>,http://www.phreeplot.org/index.html,<a href="(./setup-pp-win32-[\d-]*-9213.exe)">Win32</a>,2015.01.28
+PhreePlot,multi,x64,http://www.phreeplot.org/index.html,<a href="./setup-pp-x64-([\d-]*)-\d*.exe">x64</a>,http://www.phreeplot.org/index.html,<a href="(./setup-pp-x64-[\d-]*.exe)">x64</a>,2015.08.24
+PIPE,en,multi,https://github.com/sarahtattersall/PIPE/releases,<a.*>PIPE ([\d\.]*)</a>,https://github.com/sarahtattersall/PIPE/releases,<a[^>]*href="([^"]*PIPE-gui-[\d\.]*.jar)",5.0.1
+#Python,en,x86,https://www.python.org/downloads/windows/,Latest Python 2 Release - Python ([\d\.]*),https://www.python.org/downloads/windows/,(https://www\.python\.org/ftp/python/2[\d\.]*/python-2[\d\.]*msi),2.7.9
+Python,en,x64,https://www.python.org/downloads/windows/,Latest Python 2 Release - Python ([\d\.]*),https://www.python.org/downloads/windows/,(https://www\.python\.org/ftp/python/2[\d\.]*/python-2[\d\.]*amd64\.msi),2.7.10
+#Python,en,x86,https://www.python.org/downloads/windows/,Latest Python 3 Release - Python ([\d\.]*),https://www.python.org/downloads/windows/,(https://www\.python\.org/ftp/python/3[\d\.]*/python-3[\d\.]*msi),3.4.3
+Python,en,x64,https://www.python.org/downloads/windows/,Latest Python 3 Release - Python ([\d\.]*),https://www.python.org/downloads/windows/,(https://www\.python\.org/ftp/python/3[\d\.]*/python-3[\d\.]*amd64\.msi),3.5.0
+Recuva,multi,multi,https://www.piriform.com/recuva/download, +v([\d\.]+),https://www.piriform.com/recuva/download/standard,<a.*?href="([^"]*\.exe)".*?>,1.52.1086
+Recuva portable,multi,multi,https://www.piriform.com/recuva/download, +v([\d\.]+),https://www.piriform.com/recuva/download/portable,<a.*?href="([^"]*downloadfile)".*?>,1.52.1086
+SmartGitHG,en,x86,http://www.syntevo.com/smartgit/download,<span class="version">([\d\.]+)</span>,http://www.syntevo.com/smartgit/download,<a.*?class="[^"]*?linkDownload".*?href="\./download\?file=smartgit/smartgit-win32-setup-jre-(.*)\.zip">,7.0.3,yes
+Speccy,multi,multi,https://www.piriform.com/speccy/download, +v([\d\.]+),https://www.piriform.com/speccy/download/standard,<a.*?href="([^"]*\.exe)".*?>,1.28.709
+Speccy portable,multi,multi,https://www.piriform.com/speccy/download, +v([\d\.]+),https://www.piriform.com/speccy/download/portable,<a.*?href="([^"]*downloadfile)".*?>,1.28.709
+VeraCrypt,en,x86,https://veracrypt.codeplex.com/,VeraCrypt version ([\d\.]+),https://veracrypt.codeplex.com/wikipage?title=Downloads,<em style="text-align:left">Windows</em></strong>: <a href="(.*)">,1.16,nodl
+VirtualBox,multi,multi,https://www.virtualbox.org/wiki/Downloads,VirtualBox ([\d\.]*) for Windows hosts,https://www.virtualbox.org/wiki/Downloads,<a[^>]*?href="([^"]*VirtualBox-.*?-Win\.exe)"[^>]*>,5.0.8
+VirtualBox Expansion Pack,multi,multi,https://www.virtualbox.org/wiki/Downloads,VirtualBox ([\d\.]*) Oracle VM VirtualBox Extension Pack,https://www.virtualbox.org/wiki/Downloads,<a[^>]*?href="([^"]*Oracle_VM_VirtualBox_Extension_Pack-.*?\.vbox-extpack)"[^>]*>,5.0.8
